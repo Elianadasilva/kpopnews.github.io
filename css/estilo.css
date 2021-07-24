@@ -142,7 +142,9 @@ a{
 	border: none;
 	height: 50px;
 	width: 100px;
-	font: bold 15px arial, sans-serif;
+	font-weight: bold; 
+	font-size: 15px; 
+	font-family: arial, sans-serif;
 	text-shadow:none;
 	cursor: pointer;
 	display: inline-block;
@@ -155,7 +157,9 @@ a{
 	border: none;
 	height: 50px;
 	width: 100px;
-	font: bold 15px arial, sans-serif;
+	font-weight: bold; 
+	font-size: 15px; 
+	font-family: arial, sans-serif;
 	text-shadow:none;
 	cursor: pointer;
 	display: inline-block;
