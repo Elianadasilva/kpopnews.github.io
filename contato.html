@@ -4,214 +4,159 @@
 	<meta charset="utf-8">
 	<title>KPOP News</title>
 	<link rel="shortcut icon" href="imagens/favicon.png">
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
 </head>
-<body style="background-color: Plum;">
-	<table border="0" align="center" width="1200">
-		<tr>
-			<td align="center"><img src="imagens/logo.png" alt="Logo KPOPnews" width="1200" alt="Logo KPOP News"></td>
-			
-		</tr>
-		
-	</table>
+<body>
+	<div id="logo">
+		<img src="imagens/logo.png" alt="Logo KPOPnews" alt="Logo KPOP News" id="logo_imagem">
+	</div>
 	<br>
 	<hr align="center" width="1200" color="SlateGray" size="3" ;>
 	<table border="0" align="center" width="1200">
 		<tr>
-			<td align="center" >
-			<a href="index.html"><font size="5" color="White" face="verdana"><b>Home</b></font></a>
+			<td align="center">
+			<a href="index.html" class="menu">Home</a>
 			</td>
 			<td align="center" >
-			<a href="quem.html"><font size="5" color="White" face="verdana"><b>Quem somos</b></font></a>
+			<a href="quem.html"class="menu">Quem somos</a>
 			</td>
 			<td align="center" >
-			<a href=""><font size="5" color="White" face="verdana"><b>Contato</b></font></a>
+			<a href=""class="menu">Contato</a>
 			</td>
 		</tr>
 	</table>
 	<hr align="center" width="1200" color="SlateGray" size="3" ;>
 	<br>
-	<table border="0" width="1200" align="center"><!--table principal-->
-	<tr>
-		<td valign="top" style="background-color: white;"><!--primeira td-->
-			<table align="center" width="900">
-				<tr>
-					<td colspan="2">
-						<h1 style="color: DarkCyan;" face="verdana" align="center"><b>Contato</b></h1>
-						<hr align="center" width="860" color="SlateGray" size="3" ;>
-						<br>
-						<font align="justify" size="4" face="verdana">
-						<p>Quer entrar em contato com o <b>KPOP News</b>? É só preencher o formulário abaixo:</p>
-						</font>
-						<form action="">
-							<label for="name"><font size="5" face="verdana">Seu nome:</font></label><br>
-				  			<input type="text" id="name" name="name" size="48"><br><br>
-							<label for="email"><font size="5" face="verdana">Seu e-mail:</font></label><br>
-				  			<input type="text" id="fname" name="email" size="48"><br><br>
-				  			<label for="assunto"><font size="5" face="verdana">Assunto:</font></label><br>
-				  			<input type="text" id="assunto" name="assunto" size="48"><br><br>
-				  			<label for="descr"><font size="5" face="verdana">Descrição:</font></label><br>
-				  			<textarea name="message" rows="5" cols="50"></textarea><br><br>
-				  			<input type="submit" value="Enviar">
-						</form>
-						<br><br><br><br><br><br><br><br>
-					</td>
-				</tr>
-			</table>
-	</td><!--primeiro td-->
-	<td valign="top" style="background-color:lightblue;"><!-- inicio da segunda td-->
-		<table border="0" >
-			<tr >
-				<td >
-					<img src="imagens/kpop1.jpg" width="305" alt="Blackpink, Big Bang e BTS">
-					<br><hr width="280" size="3" color="DarkOrchid">
-				</td>
-			</tr>
-			<tr >
-				<table border="0">
+	<table id="principal">
+		<tr>
+			<td id="caixa_contato">
+				<div class="caixa_text">
+					<h1 class="titulo">Contato</h1>
+					<div class="text">
+					<p>Quer entrar em contato com o <b>KPOP News</b>? É só preencher o formulário abaixo:</p>
+					</div>
+					<br>
+				</div>
+				<div id="formulario">
+					<form action="">
+						<label for="name">Seu nome:</label><br>
+			  			<input type="text" id="name" name="name" size="48"><br><br>
+						<label for="email">Seu e-mail:</label><br>
+			  			<input type="text" id="fname" name="email" size="48"><br><br>
+			  			<label for="assunto">Assunto:</label><br>
+			  			<input type="text" id="assunto" name="assunto" size="48"><br><br>
+			  			<label for="descr">Descrição:</label><br>
+			  			<textarea name="message" rows="5" cols="50"></textarea><br><br>
+					</form>
+				</div>
+				<div id="caixa_botao">
+					<input type="submit" value="Enviar" id="botao">
+				</div>
+
+			</td>
+
+			<td id="caixa_lateral"> 
+				<div class="img_lateral">
+					<img src="imagens/kpop1.jpg" alt="Blackpink, Big Bang e BTS" class="img_lateral">
+				</div>
+				<br><hr class="linha2">
+				<h2 class="topico">CURIOSIDADES</h2>
+				<table>
 					<tr>
-						<td colspan="2">
-						<font align="left" size="3" face="verdana"><p><b>CURIOSIDADES</b></p></font>
+						<td>
+							<img src="imagens/hwasa.jpg" alt="Hwasa do Mamamoo" class="img_icon">
+						</td>
+						<td>
+							<a href="http://paradapop.com/os-vocais-femininos-mais-poderosos-do-kpop/" class="link">Os vocais femininos mais poderosos do KPOP</a>
 						</td>
 					</tr>
 					<tr>
-						<td width="60"><img src="imagens/hwasa.jpg" width="50" alt="Hwasa do Mamamoo"></td>
+						<td><img src="imagens/blackpinkmv.jpg" alt="Capa do album de How You Like That"  class="img_icon"></td>
+						<td>
+							<a href="https://www.papelpop.com/2021/01/retrospectiva-k-pop-os-melhores-e-mais-bem-produzidos-clipes-de-2020/" class="link">
+							Os melhores e mais bem produzidos MVs de KPOP de 2020</a>
+						</td>
+					</tr>
+					<tr>
+						<td ><img src="imagens/v.jpg" alt="V do BTS"  class="img_icon"></td>
+						<td>
+						<a href="https://pt.quizur.com/list/ranking-de-meninos-mais-bonitos-do-k-pop-2020-xy12" class="link">
+						Idols masculinos mais bonitos do KPOP</a>
+						</td>
+					</tr>
+					<tr>
+						<td ><img src="imagens/girlsgeneration.jpg" alt="Grupo de KPOP Girls Generation" class="img_icon"></td>
+						<td>
+						<a href="https://www.letras.mus.br/blog/girl-groups-kpop/#:~:text=A%20partir%20daqui%2C%20recomendamos%20ainda,a%20hist%C3%B3ria%20da%20m%C3%BAsica%20coreana." class="link">
+						Conheça os 16 maiores girl groups de k-pop</a>
+						</td>
+					</tr>
+					<tr>
+						<td><img src="imagens/bts2.jpg" alt="Grupo de KPOP BTS" class="img_icon"></td>
+						<td>
+						<a href="https://todateen.uol.com.br/bts-13-curiosidades-sobre-o-grupo-k-pop-que-todo-fa-vai-amar-saber/" class="link">
+						13 curiosidades sobre o BTS</a>
+						</td>
+					</tr>
+				</table>
+				<br><hr class="linha2">
+				<h2 class="topico">PLAYLISTS</h2>
+				<table>
+					<tr>
+						<td><img src="imagens/monstax2.jpg" alt="Grupo de KPOP Monsta X" class="img_icon"></td>
 						<td >
-						<a href="http://paradapop.com/os-vocais-femininos-mais-poderosos-do-kpop/">
-						<font align="left" size="2" face="verdana" color="DarkRed">
-						<p><b>Os vocais femininos mais poderosos do KPOP</b></p>
-						</font>
-						</a>
+						<a href="https://open.spotify.com/playlist/37i9dQZF1DX9tPFwDMOaN1" class="link">KPOP Daebak</a>
 						</td>
 					</tr>
 					<tr>
-						<td width="60"><img src="imagens/blackpinkmv.jpg" width="50" alt="Capa do album de How You Like That"></td>
+						<td ><img src="imagens/ost.jpg" alt="Myeol Mang (Seo In Guk) de Doom At Your Service" class="img_icon"></td>
 						<td>
-						<a href="https://www.papelpop.com/2021/01/retrospectiva-k-pop-os-melhores-e-mais-bem-produzidos-clipes-de-2020/">
-						<font align="left" size="2" face="verdana" color="DarkRed">
-						<p><b>Os melhores e mais bem produzidos MVs de KPOP de 2020</b></p>
-						</font>
-						</a>
+						<a href="https://open.spotify.com/playlist/37i9dQZF1DX2ohL85TE8TI?utm_source=embed_v2&go=1&play=1&nd=1" class="link">Korean OSTs</a>
 						</td>
 					</tr>
 					<tr>
-						<td width="60"><img src="imagens/v.jpg" width="50" alt="V do BTS"></td>
+						<td ><img src="imagens/bts2.jpg" alt="Grupo de KPOP Monsta BTS" class="img_icon"></td>
 						<td>
-						<a href="https://pt.quizur.com/list/ranking-de-meninos-mais-bonitos-do-k-pop-2020-xy12">
-						<font align="left" size="2" face="verdana" color="DarkRed">
-						<p><b>Idols masculinos mais bonitos do KPOP</b></p>
-						</font>
-						</a>
+						<a href="https://open.spotify.com/playlist/37i9dQZF1DX4RDXswvP6Mj?utm_source=embed_v2&go=1&play=1&nd=1" class="link">K-Club Party</a>
 						</td>
 					</tr>
 					<tr>
-						<td width="60"><img src="imagens/girlsgeneration.jpg" width="50" alt="Grupo de KPOP Girls Generation"></td>
+						<td><img src="imagens/exo2.jpg" alt="Grupo de KPOP EXO" class="img_icon"></td>
 						<td>
-						<a href="https://www.letras.mus.br/blog/girl-groups-kpop/#:~:text=A%20partir%20daqui%2C%20recomendamos%20ainda,a%20hist%C3%B3ria%20da%20m%C3%BAsica%20coreana.">
-						<font align="left" size="2" face="verdana" color="DarkRed">
-						<p><b>Conheça os 16 maiores girl groups de k-pop</b></p>
-						</font>
-						</a>
+						<a href="https://open.spotify.com/playlist/37i9dQZF1DX5JcPJgYjGcf?utm_source=embed_v2&go=1&play=1&nd=1" class="link">This Is: EXO</a>
 						</td>
 					</tr>
 					<tr>
-						<td width="60"><img src="imagens/bts2.jpg" width="50" alt="Grupo de KPOP BTS"></td>
+						<td ><img src="imagens/audrey.jpg" alt="Solista Audrey Nuna" class="img_icon"></td>
 						<td>
-						<a href="https://todateen.uol.com.br/bts-13-curiosidades-sobre-o-grupo-k-pop-que-todo-fa-vai-amar-saber/">
-						<font align="left" size="2" face="verdana" color="DarkRed">
-						<p><b>13 curiosidades sobre o BTS</b></p>
-						</font>
-						</a>
+						<a href="https://open.spotify.com/playlist/37i9dQZF1DXbirtHQBuwCo?utm_source=embed_v2&go=1&play=1&nd=1" class="link">TrenChill K-R&B</a>
 						</td>
 					</tr>
-				</table><!--fim do primeiro tópico-->
-				<br>
-				<hr width="280" size="3" color="DarkOrchid">
-				<table border="0"><!--inicio do segundo tópico-->
+				</table>
+				<br><hr class="linha2">
+				<h2 class="topico">BLOGS PARA SEGUIR</h2>
+				<table>
 					<tr>
-						<td colspan="2">
-						<font align="left" size="3" face="verdana"><p><b>PLAYLISTS</b></p></font>
-						</td>
-					</tr>
-					<tr>
-						<td width="60"><img src="imagens/monstax2.jpg" width="50" alt="Grupo de KPOP Monsta X"></td>
+						<td ><img src="imagens/palpitealheio.jpg" alt="Logo do blog Palpite Alheio" class="img_icon"></td>
 						<td >
-						<a href="https://open.spotify.com/playlist/37i9dQZF1DX9tPFwDMOaN1">
-						<font align="left" size="2" face="verdana" color="DarkRed"><p><b>KPOP Daebak</b></p></font>
-						</a>
+						<a href="https://palpitesalheios.wordpress.com/" class="link">Palpite </a>
 						</td>
 					</tr>
 					<tr>
-						<td width="60"><img src="imagens/ost.jpg" width="50" alt="Myeol Mang (Seo In Guk) de Doom At Your Service"></td>
+						<td ><img src="imagens/miojopop.png" alt="Logo do blog Miojo Pop" class="img_icon"></td>
 						<td>
-						<a href="https://open.spotify.com/playlist/37i9dQZF1DX2ohL85TE8TI?utm_source=embed_v2&go=1&play=1&nd=1">
-						<font align="left" size="2" face="verdana" color="DarkRed"><p><b>Korean OSTs</b></p></font>
-						</a>
+						<a href="https://miojopop.home.blog/" class="link">Miojo Pop</a>
 						</td>
 					</tr>
 					<tr>
-						<td width="60"><img src="imagens/bts2.jpg" width="50" alt="Grupo de KPOP Monsta BTS"></td>
+						<td ><img src="imagens/popasiatico.jpg" alt="Logo do blog Pop Asiatico" class="img_icon"></td>
 						<td>
-						<a href="https://open.spotify.com/playlist/37i9dQZF1DX4RDXswvP6Mj?utm_source=embed_v2&go=1&play=1&nd=1">
-						<font align="left" size="2" face="verdana" color="DarkRed"><p><b>K-Club Party</b></p></font>
-						</a>
+						<a href="https://popasiaticojpg.com/" class="link">Pop Asiático</a>
 						</td>
 					</tr>
-					<tr>
-						<td width="60"><img src="imagens/exo2.jpg" width="50" alt="Grupo de KPOP EXO"></td>
-						<td>
-						<a href="https://open.spotify.com/playlist/37i9dQZF1DX5JcPJgYjGcf?utm_source=embed_v2&go=1&play=1&nd=1">
-						<font align="left" size="2" face="verdana" color="DarkRed"><p><b>This Is: EXO</b></p></font>
-						</a>
-						</td>
-					</tr>
-					<tr>
-						<td width="60"><img src="imagens/audrey.jpg" width="50" alt="Solista Audrey Nuna"></td>
-						<td>
-						<a href="https://open.spotify.com/playlist/37i9dQZF1DXbirtHQBuwCo?utm_source=embed_v2&go=1&play=1&nd=1">
-						<font align="left" size="2" face="verdana" color="DarkRed"><p><b>TrenChill K-R&B</b></p></font>
-						</a>
-						</td>
-					</tr>
-				</table><!--fim do segundo tópico-->
-				<br>
-				<hr width="280" size="3" color="DarkOrchid">
-				<table><!--inicio do terceiro tópico-->
-					<tr>
-						<td colspan="2">
-						<font align="left" size="3" face="verdana"><p><b>BLOGS PARA SEGUIR</b></p></font>	
-						</td>
-					</tr>
-					<tr>
-						<td width="60"><img src="imagens/palpitealheio.jpg" width="50" alt="Logo do blog Palpite Alheio"></td>
-						<td >
-						<a href="https://palpitesalheios.wordpress.com/">
-						<font align="left" size="2" face="verdana" color="DarkRed"><p><b>Palpite Alheio</b></p></font>
-						</a>
-						</td>
-					</tr>
-					<tr>
-						<td width="60"><img src="imagens/miojopop.png" width="50" alt="Logo do blog Miojo Pop"></td>
-						<td>
-						<a href="https://miojopop.home.blog/">
-						<font align="left" size="2" face="verdana" color="DarkRed"><p><b>Miojo Pop</b></p></font>
-						</a>
-						</td>
-					</tr>
-					<tr>
-						<td width="60"><img src="imagens/popasiatico.jpg" width="50" alt="Logo do blog Pop Asiatico"></td>
-						<td>
-						<a href="https://popasiaticojpg.com/">
-						<font align="left" size="2" face="verdana" color="DarkRed"><p><b>Pop Asiático</b></p></font>
-						</a>
-						</td>
-					</tr>
-					
-				</table><!--fim do terceiro tópico-->
-			</tr>
-		</table>
-	</td><!--fim da segunda td-->
-	</tr><!--fechamento do tr principal-->
-	</table><!--fechamento do table principal-->
-	
+				</table>
+			</td>
+		</tr>
+	</table>
 </body>
 </html>
