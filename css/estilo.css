@@ -135,16 +135,36 @@ a{
 	font-weight: bold;
 	color: rgb(139, 58, 98);
 }
-#botao{
-	background: #CD5555;
+
+.botao{
+	background: #EE6363;
 	color: white;
-	border-style: outset;
-	border-color: #CD5555;
+	border: none;
 	height: 50px;
 	width: 100px;
 	font: bold 15px arial, sans-serif;
 	text-shadow:none;
+	cursor: pointer;
+	display: inline-block;
+	box-shadow:0 5px 0 #CD5555;
+
 }
-#caixa_botao{
-	padding-left: 40px;
+.botao:hover{
+	background: #CD5555;
+	color: white;
+	border: none;
+	height: 50px;
+	width: 100px;
+	font: bold 15px arial, sans-serif;
+	text-shadow:none;
+	cursor: pointer;
+	display: inline-block;
+	box-shadow:0 5px 0 #8B3A3A;
+
 }
+.botao:active{
+	position:relative;
+	top:5px;
+	box-shadow:none;
+}
+
