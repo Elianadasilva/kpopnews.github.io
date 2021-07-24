@@ -1,0 +1,150 @@
+body{
+	background:  Plum;
+}
+#logo_imagem{
+	width: 1200px;
+}
+#logo{
+	width: 1200px;
+	margin: auto;
+	margin-top: 20px;
+}
+.menu{
+	font-family: verdana, Sans-serif;
+	font-size: 30px;
+	color: White;
+	text-decoration: none;
+	text-align: center;
+	font-weight: bold;
+}
+#principal{
+	width: 1200px;
+	background: white;
+	margin: auto;
+}
+.caixa_text{
+	width: 800px;
+	padding: 20px;
+}
+.titulo{
+	color: DarkCyan;
+	text-align: center;
+	font-family: "Georgia", Serif;
+	font-size: 28px;
+	padding-left: 20px;
+	padding-right: 20px;
+	font-weight: bold;
+}
+.caixa_img{
+	text-align: center;
+}
+.img{
+	padding-left: 10px;
+	padding-right: 10px;
+	text-align: center;
+}
+.data{
+	text-align: left;
+	font-size: 15px;
+	font-family: "Helvetica", Sans-serif;
+	color: grey;
+	padding-left: 20px;
+}
+.text{
+	font-size: 20px;
+	text-align: justify;
+	font-family: "Helvetica", Sans-serif;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.linha{
+	text-align: center;
+	width: 740px;
+	background: SlateGray;
+	height: 4px;
+	border: 0px SlateGray;
+}
+a{
+	text-decoration: none;
+}
+#caixa_lateral{
+	width: 400px;
+	background: lightblue;
+	vertical-align: top;
+	margin: auto;
+}
+.img_lateral{
+	width: 340px;
+	margin: auto;
+	padding-top: 2px;
+	text-align: center;
+}
+.topico{
+	text-align: left;
+	font-size: 20px;
+	font-family: "Helvetica", Sans-serif;
+	font-weight: bold;
+	padding-left: 5px;
+	padding-top: 5px;
+}
+.linha2{
+	text-align: center;
+	width: 320px;
+	background: DarkOrchid;
+	height: 4px;
+	border: 0px DarkOrchid;
+}
+.img_icon{
+	width: 50px;
+	padding-left: 5px;
+	margin: auto;
+	margin-right: 6px;
+}
+.link{
+	text-align: justify;
+	font-size: 15px;
+	font-weight: bold;
+	font-family: "Helvetica", Sans-serif;
+	color: DarkRed;
+}
+#img_lisa{
+	width: 140px;
+	padding-left: 20px;
+	float: left;
+	margin-right: 18px;
+	margin-bottom: 0px;
+}
+.grupos{
+	font-size: 20px;
+	font-family: "Helvetica", Sans-serif;
+	font-weight: bold;
+}
+.img_grupos{
+	width: 700px;
+	margin: auto;
+}
+#caixa_contato{
+	vertical-align: top;
+}
+#formulario{
+	font-size: 25px;
+	text-align: left;
+	font-family: "Helvetica", Sans-serif;
+	padding-left: 40px;
+	padding-right: 20px;
+	font-weight: bold;
+	color: rgb(139, 58, 98);
+}
+#botao{
+	background: #CD5555;
+	color: white;
+	border-style: outset;
+	border-color: #CD5555;
+	height: 50px;
+	width: 100px;
+	font: bold 15px arial, sans-serif;
+	text-shadow:none;
+}
+#caixa_botao{
+	padding-left: 40px;
+}
